@@ -12,7 +12,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-form#awesome-form {
+.awesome-form {
 
 	input {
 		background: none;
@@ -22,7 +22,9 @@ form#awesome-form {
 		
 		&:focus,
 		&:active {
-			outline: none;
+			 outline: none;
+        box-shadow: none;
+        background: none;
 		}
 
 		&[type="text"],
@@ -63,12 +65,3 @@ form#awesome-form {
 	}
 
 }
-
-
-
-
-
-
-
-
-

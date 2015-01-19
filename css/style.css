@@ -8877,26 +8877,28 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-form#awesome-form input {
+.awesome-form input {
   background: none;
   border: solid 2px #1190be;
   box-shadow: none;
   color: #1190be;
 }
-form#awesome-form input:focus, form#awesome-form input:active {
+.awesome-form input:focus, .awesome-form input:active {
   outline: none;
+  box-shadow: none;
+  background: none;
 }
-form#awesome-form input[type="text"], form#awesome-form input[type="email"] {
+.awesome-form input[type="text"], .awesome-form input[type="email"] {
   border-width: 0 0 2px 0;
 }
-form#awesome-form input[type="submit"]:active {
+.awesome-form input[type="submit"]:active {
   color: #fff;
   background: #1190be;
 }
-form#awesome-form .input-group {
+.awesome-form .input-group {
   position: relative;
 }
-form#awesome-form .input-group label {
+.awesome-form .input-group label {
   position: absolute;
   top: 0.5rem;
   left: 1.4375rem;
@@ -8907,8 +8909,8 @@ form#awesome-form .input-group label {
   -webkit-transition: all 0.15s ease-out 0s;
   transition: all 0.15s ease-out 0s;
 }
-form#awesome-form .input-group input:focus + label,
-form#awesome-form .input-group input.has-content + label {
+.awesome-form .input-group input:focus + label,
+.awesome-form .input-group input.has-content + label {
   top: -0.5rem;
   font-size: 0.7rem;
   color: #1190be;

@@ -1,7 +1,7 @@
 {
   "name": "foundation-awesome-form",
   "version": "1.0.0",
-  "description": "A Zurb Foundation specific awesome form verions based of Dev Tips YouTube video found on https://www.youtube.com/watch?v=PBGfqGANYNI",
+  "description": "A Zurb Foundation specific awesome forms version based of Dev Tips YouTube video found on https://www.youtube.com/watch?v=PBGfqGANYNI",
   "author": "Vitor Faiante",
   "dependencies": {
     "grunt": "^0.4.5",
@@ -11,7 +11,7 @@
     "grunt-contrib-sass": "^0.8.1",
     "grunt-contrib-watch": "^0.6.1"
   },
-  "repositories": [
+  "repository": [
     {
       "type": "git",
       "url": "https://github.com/vitor-faiante/Foundation-Awesome-Forms.git"
